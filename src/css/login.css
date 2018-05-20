@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+body{
+    background : #263238;
+}
+
+#particles-js{
+	width : 100%;
+	height : 100%;
+}
+.bg-box{
+	overflow:hidden;
+}
+.contents-box{
+	position:absolute;
+	top:0;
+	left:0;
+	width : 100%;
+	height : 100%;
+}
+
+.login-form-wrap{
+	position:absolute;
+	top:0;
+	left:50%;
+	width : 300px;
+	height : 100%;
+	margin-left : -150px;
+}
+
+.login-input-form{
+    
+	position:absolute;
+	top: 50%;
+	left: 0;
+	width : 100%;
+    margin-top: -150px;
+}
+.login-input-form>div{
+    border-radius: 3px;
+    overflow: hidden;
+}
+.login-input-form>div:nth-of-type(3){
+    margin-top: 15px;
+}
+
+.login-form-row{
+	width : 100%;
+	height: 50px;
+	border:1px solid #ccc;
+	box-sizing : border-box;
+	background : #fff;
+}
+.login-input-form .login-form-row:first-child{
+	border-bottom:none;
+}
+.login-form-row>input[type=text], .login-form-row>input[type=password]{
+	border:none;
+	width:100%;
+	height:100%;
+	box-sizing : border-box;
+	padding : 0 10px;
+}
+
+.login-btn-row{
+    border: none;
+}
+
+.login-btn-row>input{
+    width : 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #607D8B;
+    color:#fff;
+    font-size: 0.9em;
+}
+
+.logo-wrap{
+    color : #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+
+.btn_wrap{
+    color:#ececec;
+    font-size: 0.8em;
+    padding : 10px 5px;
+    box-sizing: border-box;
+}
+.btn_wrap>span:first-child{
+    float: left;
+}
+.btn_wrap>span:last-child{
+    float: right;
+}
+
+
+
+/* 회원가입 폼 */
+.join-input-form{
+    position:absolute;
+    top: 50%;
+    left: 0;
+    width : 100%;
+    margin-top: -230px;
+}
+.join-input-form>div{
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.join-input-form .login-form-row{
+    border-bottom:none;
+}
+
+.join-input-form .login-form-row:nth-of-type(7){
+    border-bottom:1px solid #ccc;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.join-header-wrap{
+    font-size : 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.join-header-wrap>h1{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 1.2em;
+}
+.join-id-row{
+    position: relative;
+}
+
+.duplication-check-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    border-left : 1px solid #ccc;
+    text-align: center;
+    font-size: 0.7em;   
+    color:#5c5c5c;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background: #ececec;
+}
+
+.join-btn-row{
+    border: none;
+}
+
+.join-btn-row{
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.join-btn-row>input{
+    width : 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #607D8B;
+    color:#fff;
+    font-size: 0.9em;
+}
+
+

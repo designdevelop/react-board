@@ -1,0 +1,55 @@
+
+body{
+    background: #ececec;
+}
+
+/*
+ *    Header Area
+ */
+.header{
+    border-bottom: 1px solid #ccc;
+    background: #222;
+}
+
+.header_inner{
+    height: 40px;
+    line-height: 40px;
+    color:#999;
+}
+
+.header_inner:after{
+    content : "";
+    display: block;
+    clear: both;
+}
+
+.header_inner>div:nth-child(1), .header_inner>div:nth-child(2){
+    float: left;
+}
+
+.header_inner>div:nth-child(3){    
+    float: right;
+}
+
+
+/*
+ *    Footer Area
+ */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.8em;
+}
+
+
+
+.pointer-item{
+    cursor : pointer;
+}
